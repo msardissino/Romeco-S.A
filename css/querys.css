@@ -141,6 +141,39 @@
           font-size: 1em;
         }
       /* Fin Faranquicias.html */
+      /* pagina de productos */
+      .container-productos{
+        padding-left: 1em;
+      }
+      .main-productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .main-productos .row{
+        margin: 0;
+      }
+      .col-description-producto h2{
+        font-size: 1.1em;
+        width: 100%;
+        margin-top: 0.5em;
+      }
+      .col-description-producto .container-links{
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .col-description-producto .container-links .btn-producto{
+        margin-bottom: 0.5em;
+        text-align: center;
+        width: 150px;
+      }
+      /* fin pagina de productos */
+
 }
 @media screen and (min-width:768px){
   .menu-imagenes-index{
@@ -184,6 +217,23 @@
     margin-bottom: 0;
   }
    /* Fin Faranquicias.html */
+   /* PAGINA PRODUCTOS  */
+   .col-description-producto h2{
+    font-size: 1.3em;
+    width: 100%;
+    margin-top: 0.5em;
+  }
+   .col-description-producto .container-links{
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .col-description-producto .container-links .btn-producto{
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+   /*FIN PAGINA PRODUCTOS  */
 }
 @media screen and (min-width:1024px){
   .nav-repuestos li{

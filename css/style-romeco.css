@@ -750,6 +750,7 @@ p{
   /* FIN ASIDE MENU */
 
   /* PAGINA PRODUCTOS DESCRIPCION */
+  
     #carouselProductos{
       box-shadow: 0 10px 10px -5px #7D7D7D;
       margin-top: 50px;
@@ -781,21 +782,20 @@ p{
       transition: .5s;
       box-sizing: border-box;
     }
-    .container-links .btn-producto:hover{
+    .container-links .btn-producto{
       text-decoration: none;
       color: #FFF;
-      font-weight: 600;
     }
-    .container-links .btn-producto:hover:nth-child(1){
-      background-color: #64973B;
+    .container-links .btn-producto:nth-child(1){
+      background: linear-gradient(#7CA759, #64973A);
     }
-    .container-links .btn-producto:hover:nth-child(2){
-      background-color: #FD1E12;
+    .container-links .btn-producto:nth-child(2){
+      background: linear-gradient(#FF6A5E, #FF5041);
     }
-    .container-links .btn-producto:hover:nth-child(3){
+    .container-links .btn-producto:nth-child(3){
       background-color: #7D7D7D;
     }
-    .container-links .btn-producto:hover:nth-child(4){
+    .container-links .btn-producto:nth-child(4){
       background-color: #7D7D7D;
     }
     .col-description-producto h3{
