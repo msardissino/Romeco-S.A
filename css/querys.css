@@ -1,0 +1,203 @@
+@media screen and (max-width:767px){
+  .menu-principal{
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(211, 211, 223, 0.8);
+   z-index: 30;
+   top: 0;
+   bottom: 0;
+   left: -100vw;
+   transition: .3s;
+  }
+  .menu-principal.is-active{
+    left: 0;
+  }
+  .menu-principal ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-principal ul li{
+    border-bottom: 1px solid #7D7D7D;
+    width: 50%;
+    text-align: center;
+  }
+  .menu-principal ul li a{
+    /* color: aliceblue; */
+    font-size: 1.2em;
+    letter-spacing: 0.8px;
+    width: 100%;
+  }
+  .btn-burguer{
+    display:block;
+  }
+  .logo{
+    padding-bottom: 15px;
+  }
+  .logo a{
+    text-align: center;
+  }
+  /* MAIN */
+  .menu-imagenes-index,
+  .col-menu-imagenes{
+  padding: 0;
+  }
+  .section-index h2{
+    font-size: 1em;
+    margin-left: 15px;
+  }
+  .col-section-form form{
+    text-align: center;
+  }
+  .col-section-form form .inputbox label{
+    left: 15px;
+  }
+  .col-section-form form textarea,
+  .col-section-form form a,
+  .col-sucursales{
+    margin-left: 15px;
+  }
+  /* footer */
+  .row-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .col-redes-footer{
+    justify-content: center;
+  }
+  .col-redes-footer a{
+    margin: 0 1em;
+  }
+  .col-box-facebook{
+    margin-top: 1em;
+  }
+ 
+  .copyright{
+    text-align: center;
+  }
+  /*Fin footer */
+      /* servicios.html */
+      .row-servicios,
+      .col-servicios-text{
+        text-align: center;
+      }
+
+      /*Fin servicios.html */
+      /* Repuestos.html */
+      .repuestos{
+        padding-left: 2.5em;
+      }
+      .repuestos h5{
+        font-size: 1em;
+      }
+      .repuestos h6{
+        font-size: 0.9em;
+      }
+      .nav-repuestos li{
+        border-right: 2px solid rgba(125,125,125,0.5);
+      }
+      .nav-repuestos li a{
+        font-size: 0.7em;
+        font-weight: 600;
+      }
+      .r-ipd img,
+      .r-donaldson img,
+      .r-wacker .last{
+        text-align: center;
+        margin-bottom: 1em;
+      }
+      .r-ipd a,
+      .r-donaldson a{
+        max-width: 100%;
+      }
+      .col-img2{
+        text-align: center;
+      }
+      /* Fin Repuestos.html */
+      /* Faranquicias.html */
+        .franquicias .row{
+          margin:0;
+        }
+        .franquicias img{
+          max-width: 100%;
+        }
+        .col-img{
+          text-align: center;
+        }
+        .col-img-franquicias{
+          margin-bottom: 2em;
+        }
+        .title-franquicias{
+          font-size: 1.1em;
+        }
+        .title-franquicias.low{
+          font-size: 1em;
+        }
+      /* Fin Faranquicias.html */
+}
+@media screen and (min-width:768px){
+  .menu-imagenes-index{
+    margin-bottom: 1.5em;
+  }
+  .col-redes-footer{
+    justify-content: space-between;
+  }
+  .linear-title:after, .linear-title:before{
+    height: 1px;
+  }
+  /* repuestos.html */
+  .nav-repuestos li{
+    border-right: 2px solid rgba(125,125,125,0.5);
+  }
+  .nav-repuestos li a{
+    font-size: 1em;
+    font-weight: normal;
+  }
+  .repuestos h5{
+    font-size: 1.2em;
+  }
+  .repuestos h6{
+    font-size: 1em;
+  }
+  .col-img{
+    text-align: center;
+  }
+  .col-img img{
+    max-width: 50%;
+  }
+  /* Fin repuestos.html */
+ /* Faranquicias.html */
+ .row-franquicias{
+   align-items: center;
+ }
+  .col-img-franquicias{
+    text-align: center;
+  }
+  .col-img-franquicias{
+    margin-bottom: 0;
+  }
+   /* Fin Faranquicias.html */
+}
+@media screen and (min-width:1024px){
+  .nav-repuestos li{
+    border-right: none;
+  }
+  .nav-repuestos li a{
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  .repuestos h5{
+    font-size: 1.2em;
+  }
+  .repuestos h6{
+    font-size: 1em;
+  }
+
+}
