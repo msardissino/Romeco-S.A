@@ -264,6 +264,12 @@
   }
    /*fin 404.html */
    /* PAGINA PRODUCTOS  */
+   .col-menu-productos{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
    .col-description-producto h2{
     font-size: 1.3em;
     width: 100%;
