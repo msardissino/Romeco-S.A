@@ -196,6 +196,17 @@
         width: 150px;
       }
       /* fin pagina de productos */
+      /* PAGINA PRODUCTO FINAL */
+      .producto-final-container{
+        padding: 0;
+      }
+    .col-slide-product-final{
+      margin-bottom: 2.5em;
+    }
+    .col-description-producto-final-table{
+      padding-left: 1em;
+    }
+   /* FIN PAGINA PRODUCTO FINAL */
 
 }
 @media screen and (min-width:768px){
@@ -263,12 +274,19 @@
     transition: .5s;
   }
    /*fin 404.html */
+   /* ASIDE MENU */
+   .aside-menu button,
+   .panel a{
+     font-size: 0.8em;
+   }
+   /* FIN ASIDE MENU */
    /* PAGINA PRODUCTOS  */
    .col-menu-productos{
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     padding-left: 1em;
    }
    .col-description-producto h2{
     font-size: 1.3em;
@@ -286,6 +304,14 @@
     text-align: center;
   }
    /*FIN PAGINA PRODUCTOS  */
+   /* PAGINA PRODUCTO FINAL */
+    .col-slide-product-final{
+      margin-bottom: 2.5em;
+    }
+    .col-description-producto-final-table{
+      padding-left: 1em;
+    }
+   /* FIN PAGINA PRODUCTO FINAL */
 }
 @media screen and (min-width:1024px){
   .nav-repuestos li{
@@ -301,5 +327,15 @@
   .repuestos h6{
     font-size: 1em;
   }
-
+  /* ASIDE MENU */
+  .aside-menu button,
+  .panel a{
+    font-size: 1em;
+  }
+  /* FIN ASIDE MENU */
+ /* PAGINA PRODUCTO FINAL */
+    .col-description-producto-final-table{
+      padding-left: 2em;
+    }
+   /* FIN PAGINA PRODUCTO FINAL */
 }

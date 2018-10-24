@@ -1,6 +1,7 @@
 $( document ).ready(function() {
   console.log( "document loaded" );
   // js propio
+  
   const btnBurguer = document.querySelector('.btn-burguer');
   const menu = document.querySelector('.menu-principal');
     // console.log(btnBurguer);

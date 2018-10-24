@@ -687,6 +687,10 @@ p{
 .aside-menu button{
   outline: none;
 }
+.aside-menu button.noAcordeon a{
+  width: 100%;
+  display: block;
+}
 .acordion,
 .noAcordeon{
   /* background-color: lightblue; */
@@ -713,6 +717,7 @@ p{
 .acordion:hover,
 .noAcordeon:hover{
   background-color: #FD1E12;
+  border-color: #FD1E12;
   color: #FFF;
 }
 .noAcordeon a, .panel a{
@@ -724,7 +729,6 @@ p{
 .noAcordeon a:hover, 
 .panel a:hover{
   color: #fff;
-  background-color: #FD1E12;
   text-decoration: none;
 }
 .panel a:hover{
@@ -832,6 +836,53 @@ p{
       background-color: #fff;
     }
   /*FIN PAGINA PRODUCTOS DESCRIPCION */
+    /* PAGINA PRODUCTO FINAL */
+        .text-product-final{
+          background-image: url(../images/favicon.png);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+          margin-right: 3px;
+        }
+        .col-description-producto-final{
+          /* padding-left: 1em; */
+        }
+        /* table */
+        .col-description-producto-final-table{
+          padding-left: 2em;
+          padding-right: 0;
+        }
+        .table{
+          width: 100%;
+          font-family: 'Raleway', sans-serif;
+        }
+        .table thead th{
+          border: none;
+          color: #252525;
+          background-color: #dadada;
+          padding: 0.5em;
+          padding-left: 0.1em;
+          font-weight: 600;
+        }
+        .table th, .table td{
+          padding-top: 0.4em;
+          padding-bottom: 0.1em;
+          padding-left: 0.1em;
+          padding-right: 0;
+        }
+        .table th, .table td{
+          border-top: none;
+          border-bottom:1px solid rgba(191,191,191,0.8);
+        }
+        tr td.td-2{
+          text-align: right;
+        }
+        /* fin table */
+      
+    /*FIN PAGINA PRODUCTO FINAL */
 /* FIN MAIN */
 /* FOOTER */
 .footer{

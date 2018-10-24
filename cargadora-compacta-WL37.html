@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -47,21 +48,21 @@
       </header>
       <!-- Imagen de Portada -->
         <figure class="detail-page">
-          <img src="images/portada/gen-electricos.png" style="max-width: 100%" alt="Productos Romeco">
+          <img src="images/portada/wl37.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Generadores Eléctricos</li>
+                  <li class="breadcrumb-item"><a href="cargadoras-compactas.html" class="bread-i">Cargadoras Compactas</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Cargadora Compacta WL 37</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -115,79 +116,110 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                    <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
-              </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="404.html" class="link-menu-imagenes">
-                    <img src="images/generadores-electricos/2500va-lateral-1.png" style="max-width: 70%;" alt="Generador Honda 2500VA">
-                    GENERADOR HONDA 2500VA
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html"  class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/6500va-lateral.png" style="max-width: 70%;"  alt="Generador Honda 6500VA">
-                      GENERADOR HONDA 6500VA
-                    </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="generador-honda-eg4000.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg4000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-4000">
-                      GENERADOR MOTOR HONDA EG-4000
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg-5500-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-5500">
-                      GENERADOR MOTOR HONDA EG-5500
-                    </a>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-honda-eg8000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg8000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-8000">
-                        GENERADOR MOTOR HONDA EG-8000
-                      </a>
-                    </div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-motor-honda-eg10000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg1000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                        GENERADOR MOTOR HONDA EG-10000-E C/T
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-motor-honda-eg11500e.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-11500-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-11500">
-                          GENERADOR MOTOR HONDA EG-11500-E
-                        </a>
-                      </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-motor-honda-eg12000e.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-12000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                          GENERADOR MOTOR HONDA EG-12000-E C/T
-                        </a>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6">
-                          <a href="404.html" class="link-menu-imagenes">
-                            <img src="images/generadores-electricos/15000-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-15000 C/T">
-                            GENERADOR MOTOR HONDA EG-15000-E C/T
-                          </a>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span>Cargadora sobre ruedas articuladas WL 37</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-wl37.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
                         </div>
-                    </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                            La WL 37 es la cargadora ideal para cualquier tipo de proyecto de construcción donde sea necesario disponer de potencia, versatilidad y
+                            productividad. La opción de alto caudal a 33 gpm/125 l/min potencia el rendimiento de los accesorios. El puesto de mando del operador ha sido
+                            ergonómicamente diseñado para su confort y comodidad. Los elementos de funcionamiento, incluyendo un control por palanca y una palanca
+                            adicional para el tercer circuito de control, han sido convenientemente situados cerca del asiento del conductor para facilitar su funcionamiento.
+                            También está equipada de forma estándar con un sistema de calefacción y aire acondicionado que suministra un ambiente de trabajo perfecto
+                            en cualquier condición meteorológica.
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <a href="images/cargadoras compactas/csm_1_WL37_Einsatz_700x466_48f9ae51b4.jpg" data-lightbox="image-3" data-title="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                    <img class="d-block w-100" src="images/cargadoras compactas/csm_1_WL37_Einsatz_700x466_48f9ae51b4.jpg" alt="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                  </a>
+                                  </div>
+                              <div class="carousel-item">
+                                  <a href="images/cargadoras compactas/csm_WL37_700x466_574dcbe7ef.png" data-lightbox="image-3" data-title="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                    <img class="d-block w-100" src="images/cargadoras compactas/csm_WL37_700x466_574dcbe7ef.png" alt="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                  </a>
+                              </div>
+                              <div class="carousel-item">
+                                  <a href="images/cargadoras compactas/csm_1_WL37_Einsatz_700x466_48f9ae51b4.jpg" data-lightbox="image-3" data-title="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                    <img class="d-block w-100" src="images/cargadoras compactas/csm_1_WL37_Einsatz_700x466_48f9ae51b4.jpg" alt="CARGADORA SOBRE RUEDAS ARTICULADAS WL 37">
+                                  </a>
+                              </div>
+                          </div>
+                      </div> <!--Fin carrusel-->
+                    </div> <!-- Fin Columna Carrusel-->
+                    <div class="row"> <!--Row Interna Descripcion Producto productos Final-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final">  <!--Row Interna - Col 1 - Lista detalles-->
+                          <p><span class="text-product-final"></span>
+                            El bloqueo del diferencial al 100% bajo demanda proporciona al operador una tracción óptima en terrenos húmedos y resbaladizos o al entrar
+                            en una pila de material.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            El sistema de cinemática PZ garantiza que la potencia y la velocidad siempre sean óptimas al elevar o bajar los brazos de elevación.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            La placa de fijación estándar de las cargadoras compactas la convierte en una máquina ideal para el soporte de accesorios en todo tipo de
+                            trabajos.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Excelente acceso para servicio con cabina abatible y una cubierta del motor que se abre 90 grados, permitiendo así un acceso completo a
+                            todos los componentes del motor e hidráulicos.
+                          </p>
+                        </div> <!--Row Interna - Col 1 - Lista detalles-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final-table"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                          <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Datos del Motor</th>
+                                    <th scope="col" style="text-align: right;"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Fabricante del motor</td>
+                                    <td class="td-2">Deutz</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Tipo de motor</td>
+                                    <td class="td-2">TD2011 L04w</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Cilindro</td>
+                                    <td class="td-2">4</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Potencia del motor kW</td>
+                                    <td class="td-2">55,1 kW</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>a revoluciones máximo 1/min</td>
+                                    <td class="td-2">2.300 1/min</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Cilindrada cm³</td>
+                                    <td class="td-2">3.619 cm³</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Tipo de refrigerante</td>
+                                    <td class="td-2">Agua</td> 
+                                  </tr>
+                                </tbody>
+                          </table>
+                        </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
+              </div>
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -234,7 +266,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -320,6 +352,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>
