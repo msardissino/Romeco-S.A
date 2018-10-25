@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -50,19 +51,19 @@
           <img src="images/portada/vib-interno.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hormigón</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Vibradores Internos</li>
+                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hórmigon</a></li>
+                  <li class="breadcrumb-item"><a href="vibradores-internos.html" class="bread-i">Vibradores Internos</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Vibrador Interno Eléctrico Serie IRFU</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -116,43 +117,85 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
-              </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="vibrador-interno-electrico-sIRFU.html" class="link-menu-imagenes">
-                    <img src="images/tecno-hormigon/vibradores-internos/csm_WN_IRFU_P03neu_1_700x466_377adbcd0b-300x300.png" style="max-width: 70%;" alt="VIBRADORES ELÉCTRICOS">
-                    VIBRADORES ELÉCTRICOS
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibradores-internos-modulares.html"  class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-internos/csm_HMS_gelb_700x466_be9de73b87-300x300.png" style="max-width: 70%;"  alt="VIBRADORES MODULARES">
-                      VIBRADORES MODULARES
-                    </a>
-                </div>
-              </div>
-              <div class="row" style="align-items: flex-end;">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibradores-internos-neumaticos.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-internos/pir-lateral.png" style="max-width: 70%;" alt="VIBRADORES NEUMÁTICOS">
-                      VIBRADORES NEUMÁTICOS
-                    </a>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span>Vibrador Interno Eléctrico Serie IRFU</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-irfu.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
+                        </div>
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                            Los vibradores internos de alta frecuencia de la serie IRFU destacan principalmente por: Pueden conectarse a la red eléctrica monofásica y están
+                            listos para ser utilizados. Rápido, sencillo, flexible. Ideal para aplicación independiente.
+                        </p> 
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active" style="">
+                                      <a href="images/tecno-hormigon/vibradores-internos-electricos/csm_WN_IRFU_P03neu_1_700x466_377adbcd0b-1.png" data-lightbox="image-1" data-title="Vibrador Interno Eléctrico Serie IRFU">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-electricos/csm_WN_IRFU_P03neu_1_700x466_377adbcd0b-1.png" alt="Vibrador Interno Eléctrico Serie IRFU">
+                                      </a>
+                                  </div>
+                                  <div class="carousel-item" style="">
+                                      <a href="images/tecno-hormigon/vibradores-internos-electricos/csm_IRFU_E04_171772624d.jpg" data-lightbox="image-1" data-title="Vibrador Interno Eléctrico Serie IRFU">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-electricos/csm_IRFU_E04_171772624d.jpg" alt="Vibrador Interno Eléctrico Serie IRFU">
+                                      </a>
+                                  </div>
+                                  <div class="carousel-item" style="">
+                                      <a href="images/tecno-hormigon/vibradores-internos-electricos/csm_IRFU_E01_700x466_8938b4c9b0.jpg" data-lightbox="image-1" data-title="Vibrador Interno Eléctrico Serie IRFU">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-electricos/csm_IRFU_E01_700x466_8938b4c9b0.jpg" alt="Vibrador Interno Eléctrico Serie IRFU">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div> <!--Fin carrusel-->
+                    </div> <!-- Fin Columna Carrusel-->
+                    </div>
                   </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibradores-pendulares-portatiles.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-internos/csm_WN_image_BV50A_studio01_700x466_02aa0a1162-300x300.png" style="max-width: 70%;" alt="PENDULARES PORTÁTILES">
-                      PENDULARES PORTÁTILES
-                    </a>
-                  </div>
+                    <div class="row"> <!--Row Interna Descripcion Producto productos Final-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final">  <!--Row Interna - Col 1 - Lista detalles-->
+                          <p><span class="text-product-final"></span>
+                            Convertidor de frecuencia integrado
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Funcionamiento fiable incluso en generadores y tensiones de entrada fluctuantes
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Convertidor sin desgaste gracias al encapsulamiento de la electrónica
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Fabricado en Alemania
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Está disponible en distintos voltios y longitudes de manguera
+                          </p>
+                        </div> <!--Row Interna - Col 1 - Lista detalles-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final-table"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                          <p><span class="text-product-final"></span>
+                            Mayor seguridad:el Bodyguard™ de Wacker Neuson
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            El Bodyguard™ de Wacker Neuson es un interruptor diferencial
+                            de corriente integrado que, en caso necesario, desconecta el
+                            equipo en 3 milisegundos. En consecuencia: hay una seguridad
+                            absoluta para el usuario, desde el Bodyguard™ hasta el cabezal
+                            vibrador.
+                          </p>
+                            <div class="div img-product-final-row2">
+                                <img src="images/tecno-hormigon/vibradores-internos/IRSUpdf.jpg" alt="IRFU" style="width: 90%; text-aling:center;">
+                            </div>
+                        </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
               </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -199,7 +242,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -285,6 +328,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>
