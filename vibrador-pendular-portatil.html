@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -47,22 +48,22 @@
       </header>
       <!-- Imagen de Portada -->
         <figure class="detail-page">
-          <img src="images/portada/vib-externos.png" style="max-width: 100%" alt="Productos Romeco">
+          <img src="images/portada/vib-interno.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hormigón</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Vibradores Externos</li>
+                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hórmigon</a></li>
+                  <li class="breadcrumb-item"><a href="vibradores-internos.html" class="bread-i">Vibradores Internos</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Vibrador Pendular Portatil</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -116,51 +117,115 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span>Vibrador Pendular Portatil PIR</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-pir.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
+                        </div>
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                          Los vibradores portátiles a gasolina en una confortable mochila ofrecen una vibración de alto impacto y frecuencia para el hormigón. Están diseñados para trabajos de pequeños a medios en hormigón y para zonas hormigonadas de difícil acceso que no disponen de suministro eléctrico. El ergonómico diseño de la mochila presenta un 
+                          arnés acolchado que puede ponerse a medida e incorpora un cinturón de soporte de la espalda para una mayor comodidad del operador.
+                        </p> 
+                        <p><span class="text-product-final"></span>
+                          La mochila incluye un interruptor de encendido/apagado situado en el hombro y un mando del acelerador para facilitar el funcionamiento.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          La desconexión rápida permite retirar el vibrador tipo mochila rápidamente para su almacenamiento.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          El BV 35A-P presenta una tecnología pendular patentada.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          El BV 50A-H ha sido diseñado para ofrecer versatilidad con el uso de ejes flexibles y cabezales.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Portátil y productivo: suministra más de 10.000 vibraciones por minuto.
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <a href="images/tecno-hormigon/vibradores-internos-portatiles/csm_WN_image_BV50A_studio01_700x466_02aa0a1162-1.png" data-lightbox="image-1" data-title="Vibrador Pendular Portatil PIR">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-portatiles/csm_WN_image_BV50A_studio01_700x466_02aa0a1162-1.png" alt="Vibrador Pendular Portatil PIR">
+                                      </a>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <a href="images/tecno-hormigon/vibradores-internos-portatiles/csm_WNC_BV_act2_700x466_0dd44f0e07.jpg" data-lightbox="image-1" data-title="Vibrador Pendular Portatil PIR">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-portatiles/csm_WNC_BV_act2_700x466_0dd44f0e07.jpg" alt="Vibrador Pendular Portatil PIR">
+                                      </a>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <a href="images/tecno-hormigon/vibradores-internos-portatiles/csm_WNC_BV_Backpack_HR_700x466_72c12ba40d-1.png" data-lightbox="image-1" data-title="Vibrador Pendular Portatil PIR">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-internos-portatiles/csm_WNC_BV_Backpack_HR_700x466_72c12ba40d-1.png" alt="Vibrador Pendular Portatil PIR">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div> <!--Fin carrusel-->
+                    </div> <!-- Fin Columna Carrusel-->
+                    </div>
+                    
+                      <div class="col-12 col-sm-12 col-description-producto-final-table" style="padding-left:0;"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Datos técnicos</th>
+                                <th scope="col" style="text-align: right;">PIR 35</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Diámetro del cabezal vibrador mm</td>
+                                <td class="td-2">35</td>
+                              </tr>
+                              <tr>
+                                <td>Longitud del cabezal vibrador mm</td>
+                                <td class="td-2">245</td> 
+                              </tr>
+                              <tr>
+                                <td>Peso kg</td>
+                                <td class="td-2">3,6</td> 
+                              </tr>
+                              <tr>
+                                <td>Manguera protectora m</td>
+                                <td class="td-2">1,8</td> 
+                              </tr>
+                              <tr>
+                                <td>Diámetro efectivo de compactación * cm</td>
+                                <td class="td-2">40</td> 
+                              </tr>
+                              <tr>
+                                <td>Oscilaciones 1/min</td>
+                                <td class="td-2">19.700</td> 
+                              </tr>
+                              <tr>
+                                <td>Accionamiento</td>
+                                <td class="td-2">aire comprimido</td> 
+                              </tr>
+                              <tr>
+                                <td>Presión de servicio bar</td>
+                                <td class="td-2">6</td> 
+                              </tr>
+                              <tr>
+                                <td>Consumo de aire m³/min</td>
+                                <td class="td-2">0,85</td> 
+                              </tr>
+                            </tbody>
+                      </table>
+                      </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                  </div> <!--Fin Row principal productos-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
               </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="vibrador-externo-ar36.html" class="link-menu-imagenes">
-                    <img src="images/tecno-hormigon/vibradores-externos-ar36/ar36-lateral.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR36">
-                    VIBRADOR EXTERNO AR36
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-arfu36.html"  class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/arfu36-lateral.png" style="max-width: 70%;"  alt="VIBRADOR EXTERNO ARFU36">
-                      VIBRADOR EXTERNO ARFU36
-                    </a>
-                </div>
-              </div>
-              <div class="row" style="align-items: flex-end;">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-ar51.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_AR_51_3_400_P01_700x466_24d41182e1.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR51">
-                      VIBRADOR EXTERNO AR51
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-ar75.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_AR_75_6_042_700x466_66b0de2d89-300x300.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR75">
-                      VIBRADOR EXTERNO AR75
-                    </a>
-                  </div>
-              </div>
-              <div class="row" style="align-items: flex-end;">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-par.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_par_700x466px_e555b7d597-300x300.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO PAR">
-                      VIBRADOR EXTERNO PAR
-                    </a>
-                  </div>
-              </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -207,7 +272,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -293,6 +358,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>

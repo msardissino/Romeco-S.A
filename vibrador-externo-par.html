@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -50,19 +51,19 @@
           <img src="images/portada/vib-externos.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hormigón</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Vibradores Externos</li>
+                  <li class="breadcrumb-item"><a href="tecnologias-de-hormigon.html" class="bread-i">Tecnologías de Hórmigon</a></li>
+                  <li class="breadcrumb-item"><a href="vibradores-externos.html" class="bread-i">Vibradores Externos</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Vibrador Externo PAR</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -116,51 +117,97 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span>Vibrador Externo PAR</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-par.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
+                        </div>
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                            Los vibradores externos neumáticos vibran sin cesar, aun durante aplicaciones non-stop. Deben su aguante a su simple y robusto diseño, su bajo grado de mantenimiento y su larga vida de servicio. 
+                            Son la primera selección para todas aquellas aplicaciones donde se deba trabajar sin corriente eléctrica!.
+                        </p> 
+                        <p><span class="text-product-final"></span>
+                          La serie PAR es convincente ante todo por sus dimensiones pequeñas y reducido peso de servicio.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Las fuerzas centrífugas son transmitidas en forma directa gracias a la masa excéntrica del rotor a laminilla. El equipo brinda así pleno rendimiento.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Zonas críticas en el número de revoluciones – relacionadas directamente con el encofrado – son franqueadas rápidamente y sin problemas.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Con ello se reduce el consumo de aire, existiendo además así la posibilidad de adaptar el vibrador individualmente a los más diversos tipos de aplicaciones.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Aire comprimido con niebla de aceite garantiza un funcionamiento prácticamente libre de todo mantenimiento. Gracias a la falta de rodamientos y al sistema extremadamente robusto (sólo una parte móvil) el equipo cuenta con una larga vida útil.
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <a href="images/tecno-hormigon/vibradores-externos-ar36/csm_par_700x466px_e555b7d597-300x300.png" data-lightbox="image-1" data-title="Vibrador Externo AR 36">
+                                      <img class="d-block w-100" src="images/tecno-hormigon/vibradores-externos-ar36/csm_par_700x466px_e555b7d597-300x300.png" alt="Vibrador Externo AR 36">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div> <!--Fin carrusel-->
+                    </div> <!-- Fin Columna Carrusel-->
+                    </div>
+                    
+                      <div class="col-12 col-sm-12 col-description-producto-final-table" style="padding-left:0;"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Datos técnicos</th>
+                                <th scope="col" style="text-align: right;">PAR 6/2</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>L x A x H (con dispositivo de fijación para atornillar) mm</td>
+                                <td class="td-2">162 x 190 x 139</td>
+                              </tr>
+                              <tr>
+                                <td>Peso (sin dispositivo de fijación para atornillar) kg</td>
+                                <td class="td-2">6,3</td> 
+                              </tr>
+                              <tr>
+                                <td>Oscilaciones 1/min</td>
+                                <td class="td-2">17.000</td> 
+                              </tr>
+                              <tr>
+                                <td>Fuerza centrífuga kN</td>
+                                <td class="td-2">6</td> 
+                              </tr>
+                              <tr>
+                                <td>Accionamiento</td>
+                                <td class="td-2">Aire comprimido</td> 
+                              </tr>
+                              <tr>
+                                <td>Presión de servicio bar</td>
+                                <td class="td-2">6</td> 
+                              </tr>
+                              <tr>
+                                <td>Consumo de aire m³/min</td>
+                                <td class="td-2">1</td> 
+                              </tr>
+                            </tbody>
+                      </table>
+                      </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                  </div> <!--Fin Row principal productos-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
               </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="vibrador-externo-ar36.html" class="link-menu-imagenes">
-                    <img src="images/tecno-hormigon/vibradores-externos-ar36/ar36-lateral.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR36">
-                    VIBRADOR EXTERNO AR36
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-arfu36.html"  class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/arfu36-lateral.png" style="max-width: 70%;"  alt="VIBRADOR EXTERNO ARFU36">
-                      VIBRADOR EXTERNO ARFU36
-                    </a>
-                </div>
-              </div>
-              <div class="row" style="align-items: flex-end;">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-ar51.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_AR_51_3_400_P01_700x466_24d41182e1.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR51">
-                      VIBRADOR EXTERNO AR51
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-ar75.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_AR_75_6_042_700x466_66b0de2d89-300x300.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO AR75">
-                      VIBRADOR EXTERNO AR75
-                    </a>
-                  </div>
-              </div>
-              <div class="row" style="align-items: flex-end;">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="vibrador-externo-par.html" class="link-menu-imagenes">
-                      <img src="images/tecno-hormigon/vibradores-externos-ar36/csm_par_700x466px_e555b7d597-300x300.png" style="max-width: 70%;" alt="VIBRADOR EXTERNO PAR">
-                      VIBRADOR EXTERNO PAR
-                    </a>
-                  </div>
-              </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -207,7 +254,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -293,6 +340,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>
