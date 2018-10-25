@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -47,21 +48,23 @@
       </header>
       <!-- Imagen de Portada -->
         <figure class="detail-page">
-          <img src="images/portada/gen-electricos.png" style="max-width: 100%" alt="Productos Romeco">
+          <img src="images/portada/rd7.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Generadores Eléctricos</li>
+                  <li class="breadcrumb-item"><a href="compactacion-de-suelo.html" class="bread-i">Compactación de Suelo</a></li>
+                  <li class="breadcrumb-item"><a href="rodillos.html" class="bread-i">Rodillos</a></li>
+                  <li class="breadcrumb-item"><a href="rodillo-operario-a-pie.html" class="bread-i">Rodillos Operario a Pie</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Rodillo Operario a Pie RD 07</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -115,79 +118,123 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                    <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
-              </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="404.html" class="link-menu-imagenes">
-                    <img src="images/generadores-electricos/2500va-lateral-1.png" style="max-width: 70%;" alt="Generador Honda 2500VA">
-                    GENERADOR HONDA 2500VA
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html"  class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/6500va-lateral.png" style="max-width: 70%;"  alt="Generador Honda 6500VA">
-                      GENERADOR HONDA 6500VA
-                    </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="generador-honda-eg4000.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg4000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-4000">
-                      GENERADOR MOTOR HONDA EG-4000
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg-5500-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-5500">
-                      GENERADOR MOTOR HONDA EG-5500
-                    </a>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-honda-eg8000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg8000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-8000">
-                        GENERADOR MOTOR HONDA EG-8000
-                      </a>
-                    </div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-electrico-eg10000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg1000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                        GENERADOR MOTOR HONDA EG-10000-E C/T
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-electrico-eg11500.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-11500-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-11500">
-                          GENERADOR MOTOR HONDA EG-11500-E
-                        </a>
-                      </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-motor-honda-eg12000e.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-12000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                          GENERADOR MOTOR HONDA EG-12000-E C/T
-                        </a>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6">
-                          <a href="404.html" class="link-menu-imagenes">
-                            <img src="images/generadores-electricos/15000-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-15000 C/T">
-                            GENERADOR MOTOR HONDA EG-15000-E C/T
-                          </a>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span> Rodillo Operario a Pie RD 07</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-rd7.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
                         </div>
-                    </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                            El RD 7 es un rodillo vibratorio doble de conducción manual. Sus tambores lisos con aristas achaflanadas compactan el asfalto y el material
+                            granulado de forma uniforme. Por este motivo, es adecuado para su uso en un amplio rango de aplicaciones en la compactación de suelos y
+                            asfalto. Su diseño compacto permite realizar un trabajo exacto hasta los bordes, incluso en pasajes estrechos. El RD 7 está disponible con
+                            arranque eléctrico o manual.
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel 1-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <a href="images/vibropisones/rodillos/operados a pie/41156-4952905.jpg" data-lightbox="image-2" data-title="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operados a pie/41156-4952905.jpg" alt="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                  </a>
+                                  </div>
+                              <div class="carousel-item">
+                                  <a href="images/vibropisones/rodillos/operados a pie/IMG_RD7.jpg" data-lightbox="image-2" data-title="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operados a pie/IMG_RD7.jpg" alt="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                  </a>
+                              </div>
+                              <div class="carousel-item">
+                                  <a href="images/vibropisones/rodillos/operados a pie/WN_NAM_image_RD7A_studio01_700x466px_e319fa25bb.jpg" data-lightbox="image-2" data-title="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operados a pie/WN_NAM_image_RD7A_studio01_700x466px_e319fa25bb.jpg" alt="RODILLOS DE CONDUCCIÓN MANUAL: RD 7">
+                                  </a>
+                              </div>
+                          </div>
+                      </div> <!--Fin carrusel-->
+                    </div> <!-- Fin Columna Carrusel-->
+                    <div class="row"> <!--Row Interna Descripcion Producto productos Final-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final">  <!--Row Interna - Col 1 - Lista detalles-->
+                          <p><span class="text-product-final"></span>
+                            Alto grado de seguridad en el trabajo gracias a su sistema de operario presente: en el caso de que el cuerpo del usuario choque con la barra
+                            de mando, el rodillo vibratorio se detiene automáticamente.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Protección contra vibraciones mano-brazo: un tope de caucho-metal de grandes dimensiones amortigua las vibraciones en la masa superior. La
+                            barra de mando dispone de amortiguadores adicionales, de modo que las vibraciones transmitidas al usuario sean mínimas.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            La barra de mando puede abatirse para su transporte y almacenamiento.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Para proteger el motor, el RD 7 está equipado con una detención automática por falta de aceite.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Para proteger el motor, el RD 7 está equipado con una detención automática por falta de aceite.Su sistema de accionamiento de la 
+                            bomba/acoplamiento especial permite una fácil puesta en marcha en bajas temperaturas.
+                          </p>
+                        </div> <!--Row Interna - Col 1 - Lista detalles-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final-table"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                          <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Características operativas</th>
+                                    <th scope="col" style="text-align: right;"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Peso de servicio kg</td>
+                                    <td class="td-2">830</td>
+                                  </tr>
+                                  <tr>
+                                    <td>L x A x H mm</td>
+                                    <td class="td-2">2.630 x 700 x 1.165</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Diámetro del tambor mm</td>
+                                    <td class="td-2">420</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Altura vertical libre mm</td>
+                                    <td class="td-2">235</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Proyección (derecha/izquierda) mm</td>
+                                    <td class="td-2">30</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Fuerza centrífuga kN</td>
+                                    <td class="td-2">13</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Frecuencia Hz</td>
+                                    <td class="td-2">55</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Carga lineal(estático)N/mm</td>
+                                    <td class="td-2">5,0 / 7,5</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Carga lineal(dinámico) N/mm</td>
+                                    <td class="td-2">10,0 / 10,0</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Carga lineal total N/mm</td>
+                                    <td class="td-2">15</td> 
+                                  </tr>
+                                </tbody>
+                          </table>
+                        </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
+              </div>
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -234,7 +281,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -320,6 +367,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>

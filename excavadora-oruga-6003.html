@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -47,21 +48,22 @@
       </header>
       <!-- Imagen de Portada -->
         <figure class="detail-page">
-          <img src="images/portada/gen-electricos.png" style="max-width: 100%" alt="Productos Romeco">
+          <img src="images/portada/6003.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Generadores Eléctricos</li>
+                  <li class="breadcrumb-item"><a href="excavadoras-compactas.html" class="bread-i">Excavadoras Compactas</a></li>
+                  <li class="breadcrumb-item"><a href="excavadoras-de-oruga.html" class="bread-i">Excavadoras De Oruga</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Excavadora Oruga 6003</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -115,79 +117,115 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                    <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
-              </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="404.html" class="link-menu-imagenes">
-                    <img src="images/generadores-electricos/2500va-lateral-1.png" style="max-width: 70%;" alt="Generador Honda 2500VA">
-                    GENERADOR HONDA 2500VA
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html"  class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/6500va-lateral.png" style="max-width: 70%;"  alt="Generador Honda 6500VA">
-                      GENERADOR HONDA 6500VA
-                    </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="generador-honda-eg4000.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg4000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-4000">
-                      GENERADOR MOTOR HONDA EG-4000
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg-5500-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-5500">
-                      GENERADOR MOTOR HONDA EG-5500
-                    </a>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-honda-eg8000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg8000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-8000">
-                        GENERADOR MOTOR HONDA EG-8000
-                      </a>
-                    </div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-electrico-eg10000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg1000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                        GENERADOR MOTOR HONDA EG-10000-E C/T
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-electrico-eg11500.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-11500-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-11500">
-                          GENERADOR MOTOR HONDA EG-11500-E
-                        </a>
-                      </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-motor-honda-eg12000e.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-12000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                          GENERADOR MOTOR HONDA EG-12000-E C/T
-                        </a>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6">
-                          <a href="404.html" class="link-menu-imagenes">
-                            <img src="images/generadores-electricos/15000-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-15000 C/T">
-                            GENERADOR MOTOR HONDA EG-15000-E C/T
-                          </a>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span>Excavadora Oruga 6003</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-6003.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
                         </div>
-                    </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                            La excavadora sobre orugas 6003, con radio de giro reducido, de Wacker Neuson dispone de un económico motor diesel Yanmar de cuatro
+                            cilindros. Esta unidad es la máquina más robusta dentro de su categoría de peso, ya que suministra un rendimiento correspondiente a la
+                            siguiente categoría de peso. La excavadora sobre orugas de 6 toneladas presenta uno de los sistemas hidráulicos más potentes y suaves
+                            disponibles actualmente en el mercado. La cabina de la 6003 dispone de aire acondicionado y permite escoger entre un brazo excavador largo o
+                            estándar. También incluye orugas de goma, pala niveladora, luz de trabajo acoplada al pescante y válvula de inversión de mandos.          
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <a href="images/Escavadoras de Oruga/csm_WNC_6003_action2_700x466_5d0e5dbbf7.jpg" data-lightbox="image-4" data-title="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                    <img class="d-block w-100" src="images/Escavadoras de Oruga/csm_WNC_6003_action2_700x466_5d0e5dbbf7.jpg" alt="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                  </a>
+                                  </div>
+                              <div class="carousel-item">
+                                  <a href="images/Escavadoras de Oruga/csm_WNC_6003_action_700x466_bd80dfb8bb.jpg" data-lightbox="image-4" data-title="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                    <img class="d-block w-100" src="images/Escavadoras de Oruga/csm_WNC_6003_action_700x466_bd80dfb8bb.jpg" alt="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                  </a>
+                              </div>
+                              <div class="carousel-item">
+                                  <a href="images/Escavadoras de Oruga/csm_WNC_6003_Studio1_700x466_bfd23eb874.png" data-lightbox="image-4" data-title="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                    <img class="d-block w-100" src="images/Escavadoras de Oruga/csm_WNC_6003_Studio1_700x466_bfd23eb874.png" alt="EXCAVADORA SMALL TURN POTENTE Y ÁGIL: 6003">
+                                  </a>
+                              </div>
+                          </div>
+                      </div> <!--Fin carrusel -->
+                    </div> <!-- Fin Columna Carrusel-->
+                    <div class="row"> <!--Row Interna Descripcion Producto productos Final-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final">  <!--Row Interna - Col 1 - Lista detalles-->
+                          <p><span class="text-product-final"></span>
+                            El sobresaliente por encima de las orugas es mínimo, por lo que permite un trabajo eficiente en espacios estrechos.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            El sistema hidráulico auxiliar de control proporcional es accionado por una válvula eléctrica y un interruptor basculante en el joystick,
+                            permitiendo así un trabajo suave con los accesorios.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Cabina grande y con diseño ergonómico para proporcionar el máximo confort y productividad.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Cabina abatible para facilitar el acceso a los componentes susceptibles de mantenimiento.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Menos pasos en el trabajo, mayor rentabilidad: la 6003, como excavadora única en su categoría, puede ser equipada con un estabilizador
+                            telescópico regulable adicional para conseguir una mejor curva de excavación.
+                          </p>
+                        </div> <!--Row Interna - Col 1 - Lista detalles-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final-table"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                          <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Características operativas</th>
+                                  <th scope="col" style="text-align: right;"></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Peso de transporte mín</td>
+                                  <td class="td-2">5.605 kg</td>
+                                </tr>
+                                <tr>
+                                  <td>Peso de servicio mín</td>
+                                  <td class="td-2">5.905 kg</td> 
+                                </tr>
+                                <tr>
+                                  <td>Fuerza de arranque máx.</td>
+                                  <td class="td-2">29,08 kN</td> 
+                                </tr>
+                                <tr>
+                                  <td>Fuerza de desprendimiento</td>
+                                  <td class="td-2">4.402 daN</td> 
+                                </tr>
+                                <tr>
+                                  <td>Profundidad de excavación</td>
+                                  <td class="td-2">3.845 mm</td> 
+                                </tr>
+                                <tr>
+                                  <td>Altura de descarga máx</td>
+                                  <td class="td-2">3.995 mm</td> 
+                                </tr>
+                                <tr>
+                                  <td>Radio de excavación</td>
+                                  <td class="td-2">6.210 mm</td> 
+                                </tr>
+                                <tr>
+                                  <td>L x A x H *</td>
+                                  <td class="td-2">5,800 x 1,990 x 2,570 mm</td> 
+                                </tr>
+                              </tbody>
+                        </table>
+                        </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
+              </div>
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -234,7 +272,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -320,6 +358,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>

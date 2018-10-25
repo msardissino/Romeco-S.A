@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <title>Romeco S.A.</title>
@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/swiper.css"/>
   <link rel="stylesheet" href="css/style-romeco.css"/>
   <link rel="stylesheet" href="css/querys.css"/>
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
 </head>
 <body>
@@ -47,21 +48,23 @@
       </header>
       <!-- Imagen de Portada -->
         <figure class="detail-page">
-          <img src="images/portada/gen-electricos.png" style="max-width: 100%" alt="Productos Romeco">
+          <img src="images/portada/rd12.png" style="max-width: 100%" alt="Productos Romeco">
         </figure>
       <!--Fin Imagen de Portada  -->
-      <div class="container"> <!--Contenedor Imagenes-->
-        <main class="main">
-            <!-- BREAD CRUMB -->
-            <nav aria-label="breadcrumb">
+      <div class="container container-productos"> <!--Contenedor Imagenes-->
+        <main class="main main-productos"> <!-- Main -->    
+            <nav aria-label="breadcrumb"> <!-- BREAD CRUMB -->
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Romeco S.A</a></li>
                   <li class="breadcrumb-item"><a href="productos.html" class="bread-i">Productos</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Generadores Eléctricos</li>
+                  <li class="breadcrumb-item"><a href="compactacion-de-suelo.html" class="bread-i">Compactación de Suelo</a></li>
+                  <li class="breadcrumb-item"><a href="rodillos.html" class="bread-i">Rodillos</a></li>
+                  <li class="breadcrumb-item"><a href="rodillos-operario-montado.html" class="bread-i">Rodillos Operario Montado</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Rodillo Operario Montado RD 12</li>
                 </ol>
             </nav> <!--FIN BREAD CRUMB -->
-            <div class="row"> <!-- Row Menu Imagenes-->
-              <div class="col-12 col-sm-12 col-md-4"> <!-- Aside Colum-->
+            <div class="row"> <!-- Row Menu Imagenes Productos-->
+              <div class="col-12 col-sm-12 col-md-3"> <!-- Aside Colum-->
                 <h4 class="title-aside">Venta y alquiler</h4>
                 <nav class="aside-menu">
                     <button class="acordion icon-pin" id="aa">Excavadoras Compactas <span class="icon-down"></span></button>
@@ -115,79 +118,122 @@
                         <a href="hidrolavadoras-industriales-de-agua-caliente.html">Agua Caliente</a>
                       </div>
                       <button class="noAcordeon"><a href="retropala.html">--Nueva Retropala--</a></button> 
-                    <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>
+                      <button class="noAcordeon"><a href="carmix.html">--Carmix--</a></button>  
                   </nav>
-              </div>
-              <div class="col-12 col-sm-12 col-md-8 col-menu-imagenes" style="padding-left: 3em;">
-              <div class="row">
-                 <div class="col-12 col-sm-12 col-md-6">
-                  <a href="404.html" class="link-menu-imagenes">
-                    <img src="images/generadores-electricos/2500va-lateral-1.png" style="max-width: 70%;" alt="Generador Honda 2500VA">
-                    GENERADOR HONDA 2500VA
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html"  class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/6500va-lateral.png" style="max-width: 70%;"  alt="Generador Honda 6500VA">
-                      GENERADOR HONDA 6500VA
-                    </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="generador-honda-eg4000.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg4000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-4000">
-                      GENERADOR MOTOR HONDA EG-4000
-                    </a>
-                  </div>
-                <div class="col-12 col-sm-12 col-md-6">
-                    <a href="404.html" class="link-menu-imagenes">
-                      <img src="images/generadores-electricos/honda-eg-5500-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-5500">
-                      GENERADOR MOTOR HONDA EG-5500
-                    </a>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-honda-eg8000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg8000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-8000">
-                        GENERADOR MOTOR HONDA EG-8000
-                      </a>
-                    </div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                      <a href="generador-electrico-eg10000.html" class="link-menu-imagenes">
-                        <img src="images/generadores-electricos/honda-eg1000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                        GENERADOR MOTOR HONDA EG-10000-E C/T
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-electrico-eg11500.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-11500-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-11500">
-                          GENERADOR MOTOR HONDA EG-11500-E
-                        </a>
-                      </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <a href="generador-motor-honda-eg12000e.html" class="link-menu-imagenes">
-                          <img src="images/generadores-electricos/honda-eg-12000-1-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda 10000 C/T">
-                          GENERADOR MOTOR HONDA EG-12000-E C/T
-                        </a>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6">
-                          <a href="404.html" class="link-menu-imagenes">
-                            <img src="images/generadores-electricos/15000-300x300.jpg" style="max-width: 70%;" alt="Generador HOnda EG-15000 C/T">
-                            GENERADOR MOTOR HONDA EG-15000-E C/T
-                          </a>
+              </div> <!-- Fin Aside Colum-->
+                <div class="col-12 col-sm-12 col-md-9 col-menu-productos producto-final-container"> <!-- Columna Principal Producto Final-->
+                  <div class="row"> <!--Row principal productos-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto"> <!-- Descripcion Producto-->
+                        <h2 class=""><span class="icon-double-down"></span> Rodillo Con Operario Montado RD 12</h2>
+                        <div class="container-links">
+                            <a class="btn-producto" href="contacto.html"><span class="icon-credit-card"></span> Alquiler</a>
+                            <a class="btn-producto" href="contacto.html"><span class="icon-cart"></span> Venta</a>
+                            <a class="btn-producto" href="pdf/wackerneuson-rd12.pdf"><span class="icon-pdf"></span> Descargar PDF</a>  
                         </div>
-                    </div>
-            </div>
-               
-            </div> <!--Fin Row Menu Imagenes-->
-
-  
+                        <h3><span>Descripción</span></h3>
+                        <p class="product-description">
+                          La cargadora compacta de Wacker Neuson dispone de un precomando hidráulico de serie para movimientos de tracción y trabajo, una
+                          conducción en paralelo de la pala, regulación de la carga límite y un sistema de cambio rápido estándar. De este modo todos los accesorios para
+                          la construcción pueden montarse de forma rápida y fácil. La versión 701sp, (p = Powerflow), dispone de un circuito de mando hidráulico
+                          adicional con una capacidad de 115 l/min y un motor más potente.
+                        </p>
+                        <p><span class="text-product-final"></span>
+                          Estos rodillos de alto rendimiento ofrecen unos resultados de compactación
+                          excelentes.
+                        </p>
+                    </div>  <!-- Fin Descripcion Producto-->
+                    <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-slide-product-final"> <!--Columna Carrusel 1-->
+                      <div id="carouselProductos" class="carousel slide carousel-fade" data-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <a href="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_01_700_43b13b72ae.png" data-lightbox="image-1" data-title="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_01_700_43b13b72ae.png" alt="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                  </a>
+                                  </div>
+                              <div class="carousel-item">
+                                  <a href="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_asphalt_act06_700_dcefd0e616.jpg" data-lightbox="image-1" data-title="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_asphalt_act06_700_dcefd0e616.jpg" alt="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                  </a>
+                              </div>
+                              <div class="carousel-item">
+                                  <a href="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_side_700_768031d761.png" data-lightbox="image-1" data-title="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                    <img class="d-block w-100" src="images/vibropisones/rodillos/operario montado/csm_WNC_RD12_side_700_768031d761.png" alt="RODILLO CON OPERARIO MONTADO: WACKER NEUSON RD 12">
+                                  </a>
+                              </div>
+                          </div>
+                      </div> <!--Fin carrusel -->
+                    </div> <!-- Fin Columna Carrusel-->
+                    <div class="row"> <!--Row Interna Descripcion Producto productos Final-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final">  <!--Row Interna - Col 1 - Lista detalles-->
+                          <p><span class="text-product-final"></span>
+                            Estos equipos fácilmente maniobrables proporcionan un acabado rasante del asfalto incluso en cunetas y obstáculos.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            El sistema de agua presurizado ofrece un flujo de agua constante. Un temporizador con ocho posiciones permite al operario ajustar el flujo de
+                            agua para adaptarse a las condiciones.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            La plataforma trasera y la cubierta delantera se inclinan para facilitar el acceso a la máquina y mejorar su mantenimiento.
+                          </p>
+                          <p><span class="text-product-final"></span>
+                            Los rodillos se caracterizan por un nivel de ruido bajo: su funcionamiento es más silencioso que cualquier otra máquina de la misma categoría.
+                          </p>
+                        </div> <!--Row Interna - Col 1 - Lista detalles-->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-description-producto-final-table"> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                          <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Características operativas</th>
+                                    <th scope="col" style="text-align: right;"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Peso de servicio con operario 80kg</td>
+                                    <td class="td-2">1.130</td>
+                                  </tr>
+                                  <tr>
+                                    <td>L x A x H mm</td>
+                                    <td class="td-2">1.825 x 1.035 x 2.300</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Anchura del tambor mm</td>
+                                    <td class="td-2">900</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Diámetro del tambor mm</td>
+                                    <td class="td-2">560</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Altura vertical libre Derecha mm</td>
+                                    <td class="td-2">44</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Altura vertical libre Izquierda mm</td>
+                                    <td class="td-2">89</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Proyección Derecha mm</td>
+                                    <td class="td-2">400</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Proyección Izquierda mm</td>
+                                    <td class="td-2">208</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Fuerza centrífuga Dinámico/tambor kN</td>
+                                    <td class="td-2">15</td> 
+                                  </tr>
+                                  <tr>
+                                    <td>Frecuencia Hz</td>
+                                    <td class="td-2">70</td> 
+                                  </tr>
+                                </tbody>
+                          </table>
+                        </div> <!--Row Interna - Col 2 - Tabla Caracteristicas-->
+                    </div> <!--Fin Row Interna Descripcion Producto productos Final-->
+                  </div> <!--Fin Row principal productos-->
+              </div>
             <div class="container"> <!--Contenedor Swiper Slide Marcas -->
               <div class="row">
                  <div class="swiper-container">
@@ -234,7 +280,7 @@
                    </div>
               </div>
             </div> <!--Fin Contenedor Swiper Slide Marcas-->
-        </main>
+        </main> <!--Fin  Main --> 
       </div> <!--Fin Contenedor Imagenes-->
       <footer class="footer">
         <div class="container"> <!--Contenedor Footer-->
@@ -320,6 +366,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.js"></script>
+  <script src="js/lightbox.js"></script>
   <script src="js/scripts-romeco.js"></script>
 </body>
 </html>
