@@ -10,7 +10,7 @@ html, body{
   box-sizing: border-box;
 }
 p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', system-ui;
   color: #7D7D7D;
 }
 
@@ -68,7 +68,7 @@ p{
   /* estilos links Index */
   .menu-principal ul li a,
   .link-menu-imagenes{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', system-ui;
     font-weight: 500;
     color: #252525;
     font-size: 0.9em;
@@ -171,7 +171,7 @@ p{
     width: 90%;
     letter-spacing: 0.5px;
     font-weight: normal;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', system-ui;
     font-weight: 600;
 }
 
@@ -350,7 +350,7 @@ p{
 /* FIN FORMULARIO */
 /* SUCURSALES */
 .col-sucursales{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', system-ui;
   letter-spacing: 0.2px;
 }
 .sub-title-sucursales{
@@ -437,7 +437,7 @@ p{
     .repuestos{
       margin-top: 4rem;
       position: relative;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Raleway', system-ui;
     }
     .repuestos img{
       max-width: 100%;
@@ -456,14 +456,14 @@ p{
       text-align: left;
       padding-left: 0.5rem;
       border-right:none;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Raleway', system-ui;
     }
     .repuestos-link:hover{
       background-color:#EBEBEB;
     }
     .repuestos-link a{
       text-decoration: none;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Raleway', system-ui;
       color: #5e5e5e;
       font-size: 0.9rem;
     }
@@ -857,7 +857,7 @@ p{
         }
         .table{
           width: 100%;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Raleway', system-ui;
         }
         .table thead th{
           border: none;
@@ -897,7 +897,7 @@ p{
 .footer h3{
   font-size: 1em;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', system-ui;
   font-weight: 600;
   color: rgb(33, 37, 41);
   padding-top: 0.5em;
@@ -907,7 +907,7 @@ p{
   display: block;
   color: #252525;
   transition: .5s;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', system-ui;
   letter-spacing: 0.5px;
   padding: 0.3em 0;
 }
